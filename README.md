@@ -1,9 +1,9 @@
-[![Openclassrooms](https://1to1progress.fr/wp-content/uploads/2019/05/openclassrooms-e1557761236158.png)](https://openclassrooms.com)
+## Emmanuel Gougelin
 
 ## Parcours Développeur Web - Projet 6 : Construisez une API sécurisée pour une application d'avis gastronomiques
 
 ## Scénario
-Développement d'une application web nommée "Piquante" dans laquelle les utilisateurs pourront ajouter leurs sauces préférées et liker ou disliker les sauces proposées par les autres utilisateurs.
+Développement d'une application web nommée "SO Peckoko" dans laquelle les utilisateurs pourront ajouter leurs sauces préférées et liker ou disliker les sauces proposées par les autres utilisateurs.
 
 Le but est de créer le backend de l'application, le frontend étant déjà codé et fourni.
 
@@ -30,17 +30,9 @@ Le but est de créer le backend de l'application, le frontend étant déjà cod�
   - `npm start`
   
 ### :floppy_disk: Partie Back
-- Ouvrez un nouveau terminal à la racine de l'application,
-- Téléchargez la partie back de l'application :
-  - `git clone https://github.com/lifeae/OC_WD_P6 backend`
-- Déplacez vous à l'intérieur du dossier crée :
-  - `cd backend`
 - Installez les librairies nécessaires pour faire fonctionner le serveur front :
   - `npm install`
 - Lancez le serveur
-  - `node server`
-#### Bonne visite sur : http://localhost:4200/ ! :rocket:
+  - `nodemon server`
+#### Bonne visite sur : http://localhost:4200/ 
 
-
-Mesures de sécurité mises en place
-- Hashage du mot de passe utilisateur avec **bcrypt**
